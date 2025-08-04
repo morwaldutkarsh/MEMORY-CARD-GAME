@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin: 25px;
+}
+
+.cards_container {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 80px;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.card.matched {
+  background-color: lightgreen;
+  pointer-events: none;
+}
+
+
+
